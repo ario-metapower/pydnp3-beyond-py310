@@ -1,3 +1,26 @@
+# pydnp3-beyond-py310
+Building with unpatched pybind11
+Get copy of the forked repo:
+```
+    $git clone --recursive https://github.com/ario-metapower/pydnp3-beyond-py310.git 
+```
+Install required build tools:
+```
+    $pip install wheel
+    $pip install cmake
+```
+Run script to get fresh copy of original pybind11:
+```
+    $cd pydnp3-beyond-py310
+    $chmod +x reset_pybind11_submodule.sh
+    $./reset_pybind11_submodule.sh 
+```
+Generate the wheel:
+```
+    $python setup.py bdist_wheel
+```
+Read through for more more details on pydnp3 
+ 
 # pydnp3
 Python bindings for the [opendnp3](https://github.com/automatak/dnp3) library,  an open source
 implementation of the [DNP3](http://ww.dnp.org) protocol stack written in C++14.
