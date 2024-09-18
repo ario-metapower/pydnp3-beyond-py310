@@ -1,5 +1,4 @@
-# pydnp3-beyond-py310
-## Building with unpatched pybind11
+# Building with unpatched pybind11
 
 Get copy of the forked repo:
 ```
