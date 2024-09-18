@@ -19,7 +19,7 @@ Generate the wheel:
 ```
     $python setup.py bdist_wheel
 ```
-Read through for more more details on pydnp3 
+Read through for more details on pydnp3 
  
 # pydnp3
 Python bindings for the [opendnp3](https://github.com/automatak/dnp3) library,  an open source
